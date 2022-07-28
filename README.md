@@ -10,7 +10,7 @@ We use **python** 3.6.9 as the programming language. In this project we use the 
 * **FEniCS** 2019.1.0 (www.fenicsproject.org)
 * **Matplolib** 3.1.2 (www.matplotlib.org)
 * **numpy** 1.17.4 (www.numpy.org)
-[comment]: <> (* **PyTorch** 1.5.1 (www.pytorch.org))
+<!--  (* **PyTorch** 1.5.1 (www.pytorch.org)) -->
 
 The solutions are stored in **.pvd** format, which can later be viewed with **Paraview** (www.paraview.org).
 
@@ -43,7 +43,7 @@ This code has been developed by [Nirav Vasant Shah] [email](mailto:niravshahcola
 ### 6. License
 
 * **FEniCS** is freely available under the GNU LGPL, version 3.
-[comment]: <> (* **PyTorch** has a BSD-style license (https://github.com/pytorch/pytorch/blob/master/LICENSE))
+<!--  (* **PyTorch** has a BSD-style license (https://github.com/pytorch/pytorch/blob/master/LICENSE)) -->
 * **Matplotlib** only uses BSD compatible code, and its license is based on the PSF license. Non-BSD compatible licenses (e.g., LGPL) are acceptable in matplotlib toolkits.
 
 Accordingly, this code is freely available under the GNU LGPL, version 3 and BSD-license.
