@@ -24,7 +24,7 @@ git clone https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN.gi
 
 ### 3. Problem statement
 
-https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/solution_field/temperature_field_evolution.avi
+![](https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/solution_field/temperature_field_evolution.avi)
 
 ### 4. Authors and contributors
 
