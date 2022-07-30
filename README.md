@@ -36,11 +36,11 @@ This code has been developed by [Nirav Vasant Shah] [email](mailto:niravshahcola
 	@misc{transient_heat_conduction_LSTM_PINN,
 	key          = {TransientHeatCondductionLSTMPINN},
 	author       = {Shah, N.V.},
-	title        = {{TransientHeatCondductionLSTMPINN} -- {LSTM PINN for transient heat conduction} {Version 0.1}},
+	title        = {{Long Short Term Memory based Physics Informed Neural Network for transient heat conduction problem, Version 0.1}},
 	month        = July,
+	url          = {https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN.git},
 	year         = 2022
 	}
-
 ### 6. License
 
 * **FEniCS** is freely available under the GNU LGPL, version 3.
