@@ -23,7 +23,7 @@ git clone https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN.gi
 ```
 
 ### 3. Problem statement
-
+![alt text](https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/domain.png)
 
 https://user-images.githubusercontent.com/18644277/181660692-8f7e033b-c7ce-4030-932c-3d8983b6c05d.mp4
 
