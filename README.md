@@ -30,7 +30,7 @@ The domain is divided into $7$ non-overlapping subdomains: $\bar{\omega} = \bigc
 
 The **heat conduction equation** in strong form at a given source term $Q$ is given by:
 $$\rho c \frac{\partial T}{\partial t}  = \nabla \cdot (k \nabla T) + Q \ \text{in} \ \omega \times (0,T] \ .$$
-Above equation is solved using **Finite Element Method** in space and **backward difference** in time to compute the temperature field $T$ at given time $t$. The material properties (Density $\rho$, Heat capacity $c$ and Thermal conductivities $k$) vary across each subdomain characterising different material constituting the subdomain, i.e.:
+Above equation is solved using **Finite Element Method** in space and **backward difference** in time to compute the temperature field $T$ at given time $t$. The material properties (Density $\rho$, Heat capacity $c$ and Thermal conductivity $k$) vary across each subdomain characterising different material constituting the subdomain, i.e.:
 $$\rho=\rho_{i} , c = c_{i} , k = k_{i} \.$$
 
 The **boundary conditions** are given by:
