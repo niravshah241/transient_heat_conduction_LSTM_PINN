@@ -50,7 +50,7 @@ $$T = 300 K \ \text{in} \ \omega \times \lbrace 0 \rbrace \ .$$
 
 ### 5. Authors and contributors
 
-This code has been developed by [Nirav Vasant Shah] [email](mailto:niravshahcolab@gmail.com).
+This code has been developed by [Nirav Shah] [email](mailto:niravshahcolab@gmail.com).
 
 ### 6. How to cite
 
