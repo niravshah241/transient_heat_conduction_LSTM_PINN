@@ -35,20 +35,24 @@ $$\rho=\rho_{i} , c = c_{i} , k = k_{i} \ \text{for} \ x \in \omega_{i}.$$
 
 The **boundary conditions** are given by:
 $$\text{Specified heat flux (Neumann BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = 0 \ \text{on} \ \gamma_{+} \cup \gamma_{s} \times (0,T] \ .$$
-$$\text{Heat exchanger (cold) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{out}) \ \text{on} \ \gamma_{out} \times (0,T] \ \text{with} \ T_{out} = 300 K \ .$$
-$$\text{Heat exchanger (hot) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{sf}) \ \text{on} \ \gamma_{sf} \times (0,T] \ \text{with} \ T_{sf} = 300 + 600t K \ .$$
+$$\text{Heat exchanger (cold) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{out}) \ \text{on} \ \gamma_{out} \times (0,T] \ \text{with} \ T_{out} = 300 \ K \ .$$
+$$\text{Heat exchanger (hot) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{sf}) \ \text{on} \ \gamma_{sf} \times (0,T] \ \text{with} \ T_{sf} = 300 + 600t \ K \ .$$
 The **initial condition** corressponds to the body at enviromental temperature:
 $$T = 300 K \ \text{in} \ \omega \times \lbrace 0 \rbrace \ .$$
+
+### 4. Numerical results
+
+* **Temperature evolution**
 
 ![Alt Text](https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/solution_field/thermal_evolution.gif)
 
 <!--  (https://user-images.githubusercontent.com/18644277/181660692-8f7e033b-c7ce-4030-932c-3d8983b6c05d.mp4) -->
 
-### 4. Authors and contributors
+### 5. Authors and contributors
 
 This code has been developed by [Nirav Vasant Shah] [email](mailto:niravshahcolab@gmail.com).
 
-### 5. How to cite
+### 6. How to cite
 
 	@misc{transient_heat_conduction_LSTM_PINN,
 	key          = {TransientHeatCondductionLSTMPINN},
