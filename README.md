@@ -40,7 +40,7 @@ $$\text{Heat exchanger (hot) boundary (Robin BC):} \ \overrightarrow{q} \cdot \o
 The **initial condition** corressponds to the body at rest:
 $$T = 300 K \ \text{in} \ \omega \times \lbrace 0 \rbrace \ .$$
 
-![Alt Text] (https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/solution_field/thermal_evolution.gif)
+![Alt Text](https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/solution_field/thermal_evolution.gif)
 
 <!--  (https://user-images.githubusercontent.com/18644277/181660692-8f7e033b-c7ce-4030-932c-3d8983b6c05d.mp4) -->
 
