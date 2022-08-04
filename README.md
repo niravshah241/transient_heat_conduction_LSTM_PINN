@@ -35,7 +35,7 @@ $$\rho=\rho_{i} , c = c_{i} , k = k_{i} \ \text{for} \ x \in \omega_{i}.$$
 
 The **boundary conditions** are given by:
 $$\text{Specified heat flux (Neumann BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = 0 \ \text{on} \ \gamma_{+} \cup \gamma_{s} \times (0,T] \ .$$
-$$\text{Heat exchanger (cold) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{out}) \ \text{on} \ \gamma_{out} \times (0,T] \ \text{with} \ T_{out} = 300 \ K \ .$$
+$$\text{Heat exchanger (cold) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{out}) \ \text{on} \ \gamma_{out} \cup \gamma_{-} \times (0,T] \ \text{with} \ T_{out} = 300 \ K \ .$$
 $$\text{Heat exchanger (hot) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{sf}) \ \text{on} \ \gamma_{sf} \times (0,T] \ \text{with} \ T_{sf} = 300 + 600t \ K \ .$$
 The **initial condition** corressponds to the body at enviromental temperature:
 $$T = 300 K \ \text{in} \ \omega \times \lbrace 0 \rbrace \ .$$
