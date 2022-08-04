@@ -23,7 +23,22 @@ git clone https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN.gi
 ```
 
 ### 3. Problem statement
+
+The domain is divided into $7$ non-overlapping subdomains: $\bar{\omega} = \bigcup\limits_{i=1}^{7} \bar{\omega}_{i}$.
+
 ![alt text](https://github.com/niravshah241/transient_heat_conduction_LSTM_PINN/blob/main/domain.png)
+
+The **heat conduction equation** in strong form at a given source term $Q$ is given by:
+$$\rho c \frac{\partial T}{\partial t}  = \nabla \cdot (k \nabla T) + Q \ \text{in} \ \omega \times (0,T] \ .$$
+Above equation is solved using **Finite Element Method** in space and **backward difference** in time to compute the temperature field $T$ at given time $t$. The material properties (Density $\rho$, Heat capacity $c$ and Thermal conductivities $k$) vary across each subdomain characterising different material constituting the subdomain, i.e.:
+$$\rho=\rho_{i} , c = c_{i} , k = k_{i} \.$$
+
+The **boundary conditions** are given by:
+$$\text{Specified heat flux (Neumann BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = 0 \ \text{on} \ \gamma_{+} \cup \gamma_{s} \times (0,T] \ .$$
+$$\text{Heat exchanger (cold) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{out}) \ \text{on} \ \gamma_{out} \times (0,T] \ \text{with} \ T_{out} = 300 \ .$$
+$$\text{Heat exchanger (hot) boundary (Robin BC):} \ \overrightarrow{q} \cdot \overrightarrow{n} = h (T - T_{sf}) \ \text{on} \ \gamma_{sf} \times (0,T] \ \text{with} \ T_{sf} = 300 + 600t \ .$$
+The **initial condition** corressponds to the body at rest:
+$$T = 300 \ \text{in} \ \omega \times \lbrace 0 \rbrace \ .$$
 
 https://user-images.githubusercontent.com/18644277/181660692-8f7e033b-c7ce-4030-932c-3d8983b6c05d.mp4
 
