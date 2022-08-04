@@ -12,7 +12,7 @@ We use **python** 3.6.9 as the programming language. In this project we use the 
 * **numpy** 1.17.4 (www.numpy.org)
 <!--  (* **PyTorch** 1.5.1 (www.pytorch.org)) -->
 
-The solutions are stored in **.pvd** format, which can later be viewed with **Paraview** (www.paraview.org).
+The solutions are stored in **.xdmf** format, which can later be viewed with **Paraview** (www.paraview.org).
 
 ### 2. Installation
 
